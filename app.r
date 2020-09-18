@@ -188,7 +188,6 @@ wc3 <- head(wc3,5)
 df4 <- data.frame('predictor4' = c('Contract', 'PaperlessBilling','InternetService','PaymentMethod','tenure_group'),
                   'values4' = c(310,280, 200,195,190))
 
-df5 <- caret::varImp(knnModel,scale=F)
 df5 <- data.frame(df5$importance)
 predictor5 <- row.names(df5)
 values5 <- df5$No
