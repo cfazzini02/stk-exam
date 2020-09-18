@@ -16,7 +16,7 @@ library(rpart)
 library(reshape)
 library(png)
 library(grid)
-
+library(magick)
 ### STEP 1: Prep the Data
 
 # Read in the data
